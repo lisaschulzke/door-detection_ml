@@ -60,6 +60,12 @@ function preload() {
 function setup() {
   createCanvas(4000, 2000);
 
+  // text stylings
+  textSize(50);
+  textAlign(CENTER);
+  textFont('CocoGothicPro');
+
+
   // Create the video
   video = createCapture(VIDEO);
   video.size(videoX, videoY);
@@ -197,16 +203,22 @@ function drawCameraTrafficLights(x, y) {
     redLight = '#FA482A'
     yellowLight = '#212121'
     greenLight = '#212121'
+    fill('#F9F2D9');
+    text('a stranger is at your door', width / 2, 1700);
 
   } else if (cameraState == "yellow") {
     redLight = '#212121'
     yellowLight = '#EDFA1F'
     greenLight = '#212121'
+    fill('#F9F2D9');
+    text('a friend is at your door.', width / 2, 1700);
 
   } else if (cameraState == "green") {
     redLight = '#212121'
     yellowLight = '#212121'
     greenLight = '#59FF31'
+    fill('#F9F2D9');
+    text('somebody with access is at your door.', width / 2, 1700);
   }
 }
 
