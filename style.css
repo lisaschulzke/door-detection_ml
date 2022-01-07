@@ -1,0 +1,70 @@
+html, body {
+  background-color: rgb(3, 5, 5);
+  height: 750px;
+  margin: 10px;
+  padding: 10px;
+  
+  }
+  canvas {
+    display: block;
+  }
+
+  h2 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+  }
+
+  button {
+    position: absolute;
+    left: 550px;
+    top: 400px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #9ff8e2;
+    color: black;
+    font-size: 50px;
+    padding: 20px 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+ table {
+    position:absolute;
+    top: 320px;
+    left: 2100px;
+    width:500px;
+    height: 100px;
+    border:2px;
+    background:rgb(41, 243, 209);
+
+ }
+
+ #webcam-container {
+  position:absolute;
+  top: 500px;
+  left: 1px
+ }
+
+ #label-container {
+  position:absolute;
+  top: 1200px;
+  left: 250px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+
+ }
